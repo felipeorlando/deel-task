@@ -10,7 +10,7 @@ async function seed() {
   await Job.sync({ force: true });
   //insert data
   await Promise.all([
-   Profile.create({
+    Profile.create({
       id: 1,
       firstName: 'Harry',
       lastName: 'Potter',
